@@ -5,6 +5,8 @@ public class BufferedCopy {
         BufferedReader inputStream = null;
         BufferedWriter outputStream = null;
 
+        
+
         try {
             inputStream = 
                 new BufferedReader(new FileReader("test.txt"));
