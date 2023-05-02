@@ -6,6 +6,7 @@ public class LineStreamProgram {
 
         BufferedReader inputStream = null;
         PrintWriter outputStream = null;
+        System.out.println("Hello World");
 
         try {
             inputStream = new BufferedReader(new FileReader("test.txt"));
